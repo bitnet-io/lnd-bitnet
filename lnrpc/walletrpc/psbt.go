@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	base "github.com/btcsuite/btcwallet/wallet"
 	"github.com/btcsuite/btcwallet/wtxmgr"
 	"github.com/lightningnetwork/lnd/lnwallet"

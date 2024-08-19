@@ -8,7 +8,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg/chainhash"
 )
 
 const (

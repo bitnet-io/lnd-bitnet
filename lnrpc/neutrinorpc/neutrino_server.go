@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/blockchain"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg/chainhash"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/lightningnetwork/lnd/lnrpc"
 	"google.golang.org/grpc"

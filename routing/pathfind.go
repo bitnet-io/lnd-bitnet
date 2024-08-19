@@ -9,7 +9,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/lightningnetwork/lnd/channeldb"
 	"github.com/lightningnetwork/lnd/channeldb/models"

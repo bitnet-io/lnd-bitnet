@@ -6,7 +6,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	"github.com/lightningnetwork/lnd/lnrpc"
 	"github.com/lightningnetwork/lnd/lnrpc/walletrpc"
 	"github.com/lightningnetwork/lnd/lntest/rpc"

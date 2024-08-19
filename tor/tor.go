@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/btcsuite/btcd/connmgr"
+	"github.com/bitnet-io/btcd-bitnet/connmgr"
 	"github.com/miekg/dns"
 	"golang.org/x/net/proxy"
 )

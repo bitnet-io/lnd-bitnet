@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
 	"github.com/lightningnetwork/lnd/tlv"
 )
 

@@ -3,7 +3,7 @@ package peer
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2/schnorr/musig2"
 	"github.com/lightningnetwork/lnd/input"
 	"github.com/lightningnetwork/lnd/lnwallet"
 	"github.com/lightningnetwork/lnd/lnwallet/chancloser"

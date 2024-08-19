@@ -6,7 +6,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
 	"github.com/lightningnetwork/lnd/kvdb"
 	"github.com/lightningnetwork/lnd/lntypes"
 	"github.com/lightningnetwork/lnd/lnwire"

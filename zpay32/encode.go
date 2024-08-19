@@ -5,10 +5,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/btcutil/bech32"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/btcutil/bech32"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg/chainhash"
 	"github.com/lightningnetwork/lnd/lnwire"
 )
 

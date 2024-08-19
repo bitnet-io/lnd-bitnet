@@ -10,5 +10,5 @@ package build
 // github.com/btcsuite/winsvc is kept in the go.sum file. Because of the build
 // tag, this dependency never ends up in the final lnd binary.
 import (
-	_ "github.com/btcsuite/btcd"
+	_ "github.com/bitnet-io/btcd-bitnet"
 )

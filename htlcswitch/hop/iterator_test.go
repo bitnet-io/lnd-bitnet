@@ -6,7 +6,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
 	"github.com/davecgh/go-spew/spew"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/lightningnetwork/lnd/lnwire"

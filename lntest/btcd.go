@@ -10,10 +10,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/integration/rpctest"
-	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/bitnet-io/btcd-bitnet/btcjson"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg"
+	"github.com/bitnet-io/btcd-bitnet/integration/rpctest"
+	"github.com/bitnet-io/btcd-bitnet/rpcclient"
 	"github.com/lightningnetwork/lnd/lntest/miner"
 	"github.com/lightningnetwork/lnd/lntest/node"
 )

@@ -3,7 +3,7 @@ package routing
 import (
 	"testing"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
 	"github.com/go-errors/errors"
 	"github.com/lightningnetwork/lnd/htlcswitch"
 	"github.com/lightningnetwork/lnd/lnwire"

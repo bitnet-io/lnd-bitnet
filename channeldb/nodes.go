@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	"github.com/lightningnetwork/lnd/kvdb"
 )
 

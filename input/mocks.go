@@ -3,11 +3,11 @@ package input
 import (
 	"crypto/sha256"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2/schnorr"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2/schnorr/musig2"
+	"github.com/bitnet-io/btcd-bitnet/txscript"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	"github.com/lightningnetwork/lnd/keychain"
 	"github.com/lightningnetwork/lnd/lntypes"
 	"github.com/stretchr/testify/mock"

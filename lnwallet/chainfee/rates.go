@@ -3,8 +3,8 @@ package chainfee
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/blockchain"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
 	"github.com/lightningnetwork/lnd/lntypes"
 )
 

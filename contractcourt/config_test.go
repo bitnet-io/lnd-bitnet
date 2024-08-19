@@ -3,7 +3,7 @@ package contractcourt
 import (
 	"testing"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
 	"github.com/stretchr/testify/require"
 )
 

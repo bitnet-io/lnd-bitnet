@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/lightninglabs/neutrino"
 	"github.com/lightningnetwork/lnd/autopilot"
@@ -1770,7 +1770,7 @@ func (c *Config) ImplementationConfig(
 
 // CleanAndExpandPath expands environment variables and leading ~ in the
 // passed path, cleans the result, and returns it.
-// This function is taken from https://github.com/btcsuite/btcd
+// This function is taken from https://github.com/bitnet-io/btcd-bitnet
 func CleanAndExpandPath(path string) string {
 	if path == "" {
 		return ""

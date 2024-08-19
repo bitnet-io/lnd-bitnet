@@ -13,8 +13,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/rpcclient"
 	"github.com/lightningnetwork/lnd/lnutils"
 )
 

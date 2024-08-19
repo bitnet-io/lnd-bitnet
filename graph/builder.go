@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	"github.com/go-errors/errors"
 	"github.com/lightningnetwork/lnd/batch"
 	"github.com/lightningnetwork/lnd/chainntnfs"
@@ -1236,8 +1236,8 @@ func (b *Builder) processUpdate(msg interface{},
 			// attempt to string match for the relevant errors.
 			//
 			// * btcd:
-			//    * https://github.com/btcsuite/btcd/blob/master/rpcserver.go#L1316
-			//    * https://github.com/btcsuite/btcd/blob/master/rpcserver.go#L1086
+			//    * https://github.com/bitnet-io/btcd-bitnet/blob/master/rpcserver.go#L1316
+			//    * https://github.com/bitnet-io/btcd-bitnet/blob/master/rpcserver.go#L1086
 			// * bitcoind:
 			//    * https://github.com/bitcoin/bitcoin/blob/7fcf53f7b4524572d1d0c9a5fdc388e87eb02416/src/rpc/blockchain.cpp#L770
 			//     * https://github.com/bitcoin/bitcoin/blob/7fcf53f7b4524572d1d0c9a5fdc388e87eb02416/src/rpc/blockchain.cpp#L954

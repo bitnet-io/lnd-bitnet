@@ -5,7 +5,7 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg"
 	"github.com/btcsuite/btclog"
 	"github.com/lightningnetwork/lnd/autopilot"
 	"github.com/lightningnetwork/lnd/chainreg"

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg/chainhash"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 )
 
 // InPlaceCommitSort performs an in-place sort of a commitment transaction,

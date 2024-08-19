@@ -11,8 +11,8 @@ require (
 )
 
 require (
-	github.com/btcsuite/btcd v0.23.2 // indirect
-	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
+	github.com/bitnet-io/btcd-bitnet v0.23.2 // indirect
+	github.com/bitnet-io/btcd-bitnet/chaincfg/chainhash v1.0.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/miekg/dns v1.1.43 // indirect

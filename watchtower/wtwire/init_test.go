@@ -3,8 +3,8 @@ package wtwire_test
 import (
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg/chainhash"
 	"github.com/lightningnetwork/lnd/feature"
 	"github.com/lightningnetwork/lnd/lnwire"
 	"github.com/lightningnetwork/lnd/watchtower/wtwire"

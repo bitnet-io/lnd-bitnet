@@ -3,7 +3,7 @@ package chainreg
 import (
 	"encoding/json"
 
-	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/bitnet-io/btcd-bitnet/rpcclient"
 )
 
 // backendSupportsTaproot returns true if the backend understands the taproot

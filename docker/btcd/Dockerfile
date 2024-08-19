@@ -5,13 +5,13 @@ LABEL maintainer="Olaoluwa Osuntokun <laolu@lightning.engineering>"
 # Install build dependencies such as git and glide.
 RUN apk add --no-cache git gcc musl-dev
 
-WORKDIR $GOPATH/src/github.com/btcsuite/btcd
+WORKDIR $GOPATH/src/github.com/bitnet-io/btcd-bitnet
 
 # Pin down btcd to a version that we know works with lnd.
 ARG BTCD_VERSION=v0.23.4
 
 # Grab and install the latest version of of btcd and all related dependencies.
-RUN git clone https://github.com/btcsuite/btcd.git . \
+RUN git clone https://github.com/bitnet-io/btcd-bitnet.git . \
     && git checkout $BTCD_VERSION \
     && go install -v . ./cmd/...
 

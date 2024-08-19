@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg/chainhash"
 )
 
 // ReplyShortChanIDsEnd is a message that marks the end of a streaming message

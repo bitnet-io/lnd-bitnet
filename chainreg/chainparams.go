@@ -1,8 +1,8 @@
 package chainreg
 
 import (
-	bitcoinCfg "github.com/btcsuite/btcd/chaincfg"
-	bitcoinWire "github.com/btcsuite/btcd/wire"
+	bitcoinCfg "github.com/bitnet-io/btcd-bitnet/chaincfg"
+	bitcoinWire "github.com/bitnet-io/btcd-bitnet/wire"
 	"github.com/lightningnetwork/lnd/keychain"
 )
 

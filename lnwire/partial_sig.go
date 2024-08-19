@@ -3,8 +3,8 @@ package lnwire
 import (
 	"io"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2/schnorr/musig2"
 	"github.com/lightningnetwork/lnd/tlv"
 )
 

@@ -1,7 +1,7 @@
 package lookout
 
 import (
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	"github.com/lightningnetwork/lnd/labels"
 )
 

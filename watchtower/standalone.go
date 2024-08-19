@@ -4,7 +4,7 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
 	"github.com/lightningnetwork/lnd/brontide"
 	"github.com/lightningnetwork/lnd/lnencrypt"
 	"github.com/lightningnetwork/lnd/tor"

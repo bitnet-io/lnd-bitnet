@@ -4,7 +4,7 @@
 package devrpc
 
 import (
-	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg"
 	"github.com/lightningnetwork/lnd/channeldb"
 )
 

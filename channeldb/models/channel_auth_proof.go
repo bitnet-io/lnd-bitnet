@@ -1,6 +1,6 @@
 package models
 
-import "github.com/btcsuite/btcd/btcec/v2/ecdsa"
+import "github.com/bitnet-io/btcd-bitnet/btcec/v2/ecdsa"
 
 // ChannelAuthProof is the authentication proof (the signature portion) for a
 // channel. Using the four signatures contained in the struct, and some

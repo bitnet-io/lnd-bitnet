@@ -1,7 +1,7 @@
 package lnd
 
 import (
-	"github.com/btcsuite/btcd/connmgr"
+	"github.com/bitnet-io/btcd-bitnet/connmgr"
 	"github.com/btcsuite/btclog"
 	"github.com/lightninglabs/neutrino"
 	sphinx "github.com/lightningnetwork/lightning-onion"

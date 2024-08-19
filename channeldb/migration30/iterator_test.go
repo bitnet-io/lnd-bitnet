@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg/chainhash"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	lnwire "github.com/lightningnetwork/lnd/channeldb/migration/lnwire21"
 	mig25 "github.com/lightningnetwork/lnd/channeldb/migration25"
 	mig26 "github.com/lightningnetwork/lnd/channeldb/migration26"

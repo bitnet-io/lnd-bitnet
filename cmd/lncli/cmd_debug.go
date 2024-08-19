@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/andybalholm/brotli"
-	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
 	"github.com/lightningnetwork/lnd"
 	"github.com/lightningnetwork/lnd/lnencrypt"
 	"github.com/lightningnetwork/lnd/lnrpc"

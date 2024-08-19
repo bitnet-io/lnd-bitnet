@@ -5,9 +5,9 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2/schnorr"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2/schnorr/musig2"
 	"github.com/lightningnetwork/lnd/internal/musig2v040"
 	"github.com/lightningnetwork/lnd/keychain"
 )
@@ -23,7 +23,7 @@ const (
 	MuSig2Version040 MuSig2Version = 0
 
 	// MuSig2Version100RC2 is version 1.0.0rc2 of the MuSig2 BIP draft. This
-	// uses the github.com/btcsuite/btcd/btcec/v2/schnorr/musig2 package
+	// uses the github.com/bitnet-io/btcd-bitnet/btcec/v2/schnorr/musig2 package
 	// at git tag `btcec/v2.3.1`.
 	MuSig2Version100RC2 MuSig2Version = 1
 )

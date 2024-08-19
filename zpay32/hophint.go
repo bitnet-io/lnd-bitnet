@@ -1,7 +1,7 @@
 package zpay32
 
 import (
-	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
 	"github.com/lightningnetwork/lnd/lnwire"
 )
 

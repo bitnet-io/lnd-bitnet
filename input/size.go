@@ -1,9 +1,9 @@
 package input
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/blockchain"
+	"github.com/bitnet-io/btcd-bitnet/txscript"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	"github.com/btcsuite/btcwallet/waddrmgr"
 	"github.com/lightningnetwork/lnd/lntypes"
 )

@@ -3,9 +3,9 @@ package btcwallet
 import (
 	"testing"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/btcjson"
+	"github.com/bitnet-io/btcd-bitnet/rpcclient"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	"github.com/btcsuite/btcwallet/chain"
 	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/lightningnetwork/lnd/lnmock"

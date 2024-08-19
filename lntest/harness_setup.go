@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/btcsuite/btcd/integration/rpctest"
+	"github.com/bitnet-io/btcd-bitnet/integration/rpctest"
 	"github.com/lightningnetwork/lnd/lntest/miner"
 	"github.com/lightningnetwork/lnd/lntest/node"
 	"github.com/lightningnetwork/lnd/lntest/wait"

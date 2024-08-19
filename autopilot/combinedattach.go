@@ -3,7 +3,7 @@ package autopilot
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/bitnet-io/btcd-bitnet/btcutil"
 )
 
 // WeightedHeuristic is a tuple that associates a weight to an

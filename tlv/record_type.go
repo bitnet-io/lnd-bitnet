@@ -3,7 +3,7 @@ package tlv
 import (
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
 	"github.com/lightningnetwork/lnd/fn"
 	"golang.org/x/exp/constraints"
 )

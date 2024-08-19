@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitnet-io/btcd-bitnet/btcec/v2"
+	"github.com/bitnet-io/btcd-bitnet/chaincfg/chainhash"
+	"github.com/bitnet-io/btcd-bitnet/wire"
 	lnwire "github.com/lightningnetwork/lnd/channeldb/migration/lnwire21"
 	mig25 "github.com/lightningnetwork/lnd/channeldb/migration25"
 	mig "github.com/lightningnetwork/lnd/channeldb/migration_01_to_11"
